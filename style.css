@@ -31,9 +31,19 @@ button {
   width: 40px;
   cursor: pointer;
   margin: 0 10px;
+  border: none;
+  outline: none;
 }
 button:nth-child(2) {
   height: 60px;
   width: 60px;
   font-size: 1.5rem;
+}
+button:active {
+  transform: scale(0.95);
+}
+button:disabled {
+  background: #fff7d6;
+  opacity: 1;
+  color: #000;
 }
